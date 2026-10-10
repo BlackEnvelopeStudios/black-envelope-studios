@@ -782,3 +782,17 @@ a {
   color: var(--paper);
   font: 16px/1.6 Georgia, "Times New Roman", serif;
 }
+
+.studio-live-status-mark {
+  flex: 0 0 14px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid var(--gold-bright);
+  border-radius: 50%;
+  background: var(--wax);
+  box-shadow: inset 0 0 0 3px var(--ink);
+}
+.studio-live-status[data-studio-status="playtesting"] .studio-live-status-mark,
+.studio-live-status[data-studio-status="developing"] .studio-live-status-mark {
+  background: #528660;
+}
