@@ -761,3 +761,24 @@ a {
     min-height: 180px;
   }
 }
+
+.studio-live-status {
+  margin-top: 20px;
+  padding: 18px 0;
+  border-block: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+}
+.studio-live-status-label {
+  color: var(--gold-bright);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.studio-live-status-message {
+  margin: 0;
+  color: var(--paper);
+  font: 16px/1.6 Georgia, "Times New Roman", serif;
+}
