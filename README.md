@@ -4,7 +4,11 @@ A static, hand-built site for **Black Envelope Studios**.
 
 ## What's included
 
-- `index.html` — page content and structure
+- `index.html` — homepage
+- `about.html` — About us and the studio origin story
+- `games.html` — Games and current development status
+- `contact.html` — Contact and inquiry information
+- `connect.html` — Connect with us: Reddit, YouTube, and Discord
 - `styles.css` — all visual styling and responsive layouts
 - `script.js` — subtle reveal animations, navigation behavior, and automatic copyright year
 - `assets/black-envelope-studios-logo.png` — the chosen studio logo
@@ -50,7 +54,7 @@ Your Porkbun domain can point to the website host while Proton continues handlin
 
 ## Easy edits
 
-Open `index.html` in any text editor to change wording.
+Open the corresponding HTML page in any text editor to change wording. All five pages share the navigation and footer; update these across the HTML files when changing shared links. Click the studio wordmark to return to the homepage.
 
 Open `styles.css` to change colors, spacing, typography, or layout.
 
